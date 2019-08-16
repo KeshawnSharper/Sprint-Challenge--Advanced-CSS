@@ -2,6 +2,24 @@
 * {
   box-sizing: border-box;
 }
+.btn{
+  .button(black,25px,15px,white);
+  font-size:16px;
+  @media @phone {
+        
+    .mobile();
+    margin: 0;
+  }
+}
+.btn:hover{
+  .button(white,5px,15px,black)
+}
+img{
+  @media @phone{
+    .mobile();
+          }
+}
+
 
 html {
   font-size: 62.5%;

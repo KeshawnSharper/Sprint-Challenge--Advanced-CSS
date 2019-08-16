@@ -1,1 +1,16 @@
 // Mixins Here
+.mobile(){
+    width:100%;
+    display:block;
+}
+.rad(){
+    border-radius:15px;
+}
+.button(@color,@padding,@rad,@text){
+    background-color: @color;
+    padding:@padding;
+    text-align:center;
+    width:50%;
+    border-radius:@rad;
+    color:@text;
+}
